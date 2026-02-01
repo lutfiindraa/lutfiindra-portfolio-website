@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Lutfi Indra Nur Praditya | Professional Portfolio
 
-## Getting Started
+![Portfolio Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Lutfi%20Indra%20Nur%20Praditya&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Informatics%20Student%20%7C%20Data%20Scientist%20%7C%20Web%20&%20Mobile%20Developer&descAlignY=55&descAlign=50)
 
-First, run the development server:
+<div align="center">
+
+[![Next.js](https://img.shields.io/badge/Next.js-15.1.6-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.19-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.173-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+</div>
+
+<br />
+
+## 🌟 About The Project
+
+Welcome to my personal portfolio website! This project is a modern, interactive showcase of my journey as an **Informatics Student, Data Scientist, and Full Stack Developer**.
+
+Built with **Next.js 15**, this site isn't just a static display—it's an immersive experience. It utilizes **Three.js** for stunning 3D backgrounds, **Framer Motion** for butter-smooth animations, and a sleek **Glassmorphism** design language that adapts perfectly to both light and dark modes.
+
+### ✨ Key Features
+
+*   **🎨 Dynamic 3D Backgrounds**: Interactive particle systems powered by `react-three-fiber` that respond to your mouse movement.
+*   **🌓 Dark/Light Mode**: Fully responsive theme switching with system preference detection.
+*   **⚡ High Performance**: Optimized with Next.js App Router and server-side rendering for lightning-fast loads.
+*   **📱 Fully Responsive**: A mobile-first approach ensuring a flawless experience on devices of all sizes.
+*   **📄 Integrated PDF Viewer**: Custom-built PDF renderer using `react-pdf` to showcase my CV directly within the app without downloads.
+*   **✨ Interactive UI**: Glassmorphism cards, hover effects, and smooth scroll navigations.
+
+---
+
+## 🛠️ Built With
+
+This project leverages the latest web technologies to deliver a premium user experience:
+
+| Category | Technologies |
+| :--- | :--- |
+| **Framework** | [Next.js 15](https://nextjs.org/), [React 19](https://react.dev/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **Animation** | [Framer Motion](https://www.framer.com/motion/), [GSAP](https://greensock.com/gsap/) |
+| **3D Graphics** | [Three.js](https://threejs.org/), [React Three Fiber](https://docs.pmnd.rs/react-three-fiber), [Drei](https://github.com/pmndrs/drei) |
+| **Icons** | [Lucide React](https://lucide.dev/) |
+| **PDF Rendering** | [React PDF](https://github.com/wojtekmaj/react-pdf) |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+*   **Node.js** (v18.17 or later recommended)
+*   **npm**, **yarn**, **pnpm**, or **bun**
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/lutfiindraa/lutfi-portfolio-website.git
+    cd lutfi-portfolio-website
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser**
+    Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+lutfi-portfolio-website/
+├── app/                  # Next.js App Router pages and layout
+│   ├── layout.tsx        # Main root layout with ThemeProvider & Navbar
+│   └── page.tsx          # Landing page assembling all sections
+├── components/           # Reusable UI components
+│   ├── 3d/               # Three.js background components
+│   ├── sections/         # Main page sections (Home, About, Projects, Contact)
+│   └── ui/               # Generic UI elements (Buttons, Cards)
+├── public/               # Static assets (Images, PDFs)
+└── styles/               # Global styles and Tailwind config
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📬 Contact Me
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 
-## Learn More
+<div align="center">
 
-To learn more about Next.js, take a look at the following resources:
+| Platform | Link |
+| :--- | :--- |
+| **Email** | [lutfiindra958@gmail.com](mailto:lutfiindra958@gmail.com) |
+| **LinkedIn** | [Lutfi Indra Nur Praditya](https://www.linkedin.com/in/lutfi-indra-nur-praditya-598a67269) |
+| **GitHub** | [@lutfiindraa](https://github.com/lutfiindraa) |
+| **Instagram** | [@fi.indra_](https://instagram.com/fi.indra_) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <p>Made with ❤️ and plenty of ☕ by <strong>Lutfi Indra Nur Praditya</strong></p>
+  <p>© 2024 All Rights Reserved.</p>
+</div>
