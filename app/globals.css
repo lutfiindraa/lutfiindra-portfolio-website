@@ -5,48 +5,29 @@
 @layer base {
   :root {
     --background: 245 245 247;
-    /* Off-white for better contrast */
     --foreground: 23 23 23;
-    /* #171717 */
 
     --font-inter: 'Inter', sans-serif;
-
-    /* Light Mode Glass Tokens - Improved Contrast */
     --glass-bg: 255 255 255;
     --glass-bg-opacity: 0.65;
-    /* Base opacity */
     --glass-bg-opacity-hover: 0.95;
-    /* Almost solid on hover for impact */
-    /* Higher opacity for cleaner look */
     --glass-border: 200 200 200;
     --glass-border-opacity: 0.5;
     --glass-border-opacity-hover: 0.8;
-    /* Visible faint gray border */
     --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
     --glass-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
-  /* Ensure this selector has high enough specificity and works when 'dark' class is on html */
   :root.dark {
     --background: 5 5 5;
-    /* Very dark gray/black */
     --foreground: 237 237 237;
-    /* #ededed */
 
-    /* Dark Mode Glass Tokens - Significantly Improved Visibility */
     --glass-bg: 30 30 30;
-    /* Lighter base */
     --glass-bg-opacity: 0.6;
-    /* High opacity by default (visible without hover) */
     --glass-bg-opacity-hover: 0.8;
-    /* Even more solid on hover */
-    /* Lighter base for visibility */
-    /* Higher Opacity (was 0.4) */
     --glass-border: 255 255 255;
     --glass-border-opacity: 0.15;
     --glass-border-opacity-hover: 0.3;
-    /* Defined border */
-    /* Subtle but visible border */
     --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
     --glass-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   }
@@ -102,7 +83,6 @@ body::before {
     border-color: rgba(var(--glass-border), var(--glass-border-opacity-hover));
     box-shadow: var(--glass-shadow-hover);
     transform: translateY(-5px);
-    /* Add slight lift for better feedback */
   }
 
   .text-gradient {

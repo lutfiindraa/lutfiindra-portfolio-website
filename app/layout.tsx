@@ -5,6 +5,8 @@ import { Navbar } from "@/components/Navbar";
 import { ThreeBackground } from "@/components/3d/ThreeBackground";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
+import { CustomCursor } from "@/components/ui/CustomCursor";
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" }); // Correct instantiation
 
 export const metadata: Metadata = {
@@ -21,6 +23,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased selection:bg-purple-500/30 selection:text-white`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <CustomCursor />
           <ThreeBackground />
           <Navbar />
           <main className="relative z-10">
